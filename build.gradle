@@ -61,7 +61,9 @@ subprojects {
         }
 
         implementation 'org.springframework.boot:spring-boot-starter-web',
-                'org.springframework.boot:spring-boot-starter-actuator'
+                'org.springframework.boot:spring-boot-starter-actuator',
+                'org.springframework.boot:spring-boot-starter-data-jpa',
+                'com.h2database:h2'
 
         testImplementation 'org.mockito:mockito-core',
                 'org.mockito:mockito-junit-jupiter',
